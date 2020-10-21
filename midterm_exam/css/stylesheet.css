@@ -1,10 +1,7 @@
-/* temp holder */
-
 
 * {
     font-family: 'Roboto', sans-serif, Arial, Helvetica;
 }
-
 
 a:link {
     color: rgb(31, 183, 221);
@@ -14,9 +11,13 @@ a:visited {
     color: silver;
 }
 
-
 img {
     float: left;
+    padding: 0px 10px 0px 0px;
+}
+
+h1.tealcolor + ul {
+    color: teal;
 }
 
 .clearfixhack {
@@ -24,7 +25,6 @@ img {
     clear: both;
     display: table;
 }
-
 
 .centeralign {
     text-align: center;
@@ -36,10 +36,24 @@ ul.centeralign {
     margin: 0 auto;
 }
 
+/* Non-textual elements */
 html {
     background-color: #cbaf87
 }
 
+/* Textual elements */
 body {
     background-color: #e7dec8
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    background-color: #7e8a97;
+}
+
+.movedown {
+    margin-top: 150px;
 }
