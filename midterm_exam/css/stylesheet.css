@@ -1,1 +1,45 @@
 /* temp holder */
+
+
+* {
+    font-family: 'Roboto', sans-serif, Arial, Helvetica;
+}
+
+
+a:link {
+    color: rgb(31, 183, 221);
+}
+
+a:visited {
+    color: silver;
+}
+
+
+img {
+    float: left;
+}
+
+.clearfixhack {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.centeralign {
+    text-align: center;
+}
+
+/* This piece of code is required to center align the unordered list dots also */
+ul.centeralign {
+    display: table;
+    margin: 0 auto;
+}
+
+html {
+    background-color: #cbaf87
+}
+
+body {
+    background-color: #e7dec8
+}
