@@ -1,4 +1,4 @@
-
+/* All the font should be in Roboto */
 * {
     font-family: 'Roboto', sans-serif, Arial, Helvetica;
 }
@@ -11,15 +11,18 @@ a:visited {
     color: silver;
 }
 
+/* 10px margin on the right between the img and the text */
 img {
     float: left;
     padding: 0px 10px 0px 0px;
 }
 
+/* The UL should be in teal */
 h1.tealcolor + ul {
     color: teal;
 }
 
+/* 2nd textual paragraph should not be next to the img */
 .clearfixhack {
     content: "";
     clear: both;
@@ -36,16 +39,17 @@ ul.centeralign {
     margin: 0 auto;
 }
 
-/* Non-textual elements */
+/* Applies to non-textual elements */
 html {
     background-color: #cbaf87
 }
 
-/* Textual elements */
+/* Apples to textual elements */
 body {
     background-color: #e7dec8
 }
 
+/* Fix the navigation bar to the top */
 .navbar {
     position: fixed;
     top: 0px;
@@ -54,6 +58,7 @@ body {
     background-color: #7e8a97;
 }
 
+/* Elements need to be moved down, as the navigation bar is fixed to the top */
 .movedown {
-    margin-top: 150px;
+    margin-top: 175px;
 }
